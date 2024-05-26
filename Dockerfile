@@ -1,4 +1,4 @@
-FROM amazoncorretto:21 as builder
+FROM amazoncorretto:22 as builder
 WORKDIR /build
 RUN jlink \
   --verbose \
